@@ -1,5 +1,5 @@
 export default async function DashboardPage() {
-  // await new Promise((resolve)=> setTimeout(resolve, 2000)) 
+  // await new Promise((resolve)=> setTimeout(resolve, 2000))
   // throw new Error('Fetching error')
 
   return (

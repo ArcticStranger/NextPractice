@@ -7,17 +7,16 @@ export const CARS = [
 ]
 export default function Home() {
   return (
-    <main className='p-10 bg-black min-h-screen'>
-      <h1 className='text-3xl font-black text-white mb-10 uppercase italic'>
+    <main className="min-h-screen bg-black p-10">
+      <h1 className="mb-10 text-3xl font-black text-white uppercase italic">
         The Garage
       </h1>
-      <div className='flex gap-4'>
+      <div className="flex gap-4">
         {CARS.map((car) => (
           <Link
             key={car.id}
             href={`/photo/${car.id}`}
-            className='p-6 bg-zinc-900 border border-zinc-800 rounded-xl
-            text-white hover:border-blue-500 transition-all'
+            className="rounded-xl border border-zinc-800 bg-zinc-900 p-6 text-white transition-all hover:border-blue-500"
           >
             {car.name}
           </Link>
