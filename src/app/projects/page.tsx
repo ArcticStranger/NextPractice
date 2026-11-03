@@ -153,8 +153,8 @@ export default function ProjectsPage() {
               Технология
             </label>
             <div className='flex flex-wrap gap-2'>
-              {['all', 'elysia', 'nextjs'].map((cat) => {
-                ;<button
+              {['all', 'elysia', 'nextjs'].map((cat) => (
+                <button
                   key={cat}
                   onClick={() => updateParams('category', cat)}
                   className={`px-3 py-1.5 rounded-lg text-xs
@@ -166,7 +166,7 @@ export default function ProjectsPage() {
                 >
                   {cat}
                 </button>
-              })}
+              ))}
             </div>
           </div>
 
