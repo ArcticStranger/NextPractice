@@ -55,7 +55,7 @@ export default function ProjectsPage() {
       const params = new URLSearchParams(searchParams.toString())
 
       if (searchQuery) {
-        params.set('query', searchQUery)
+        params.set('query', searchQuery)
       } else {
         params.delete('query')
       }
