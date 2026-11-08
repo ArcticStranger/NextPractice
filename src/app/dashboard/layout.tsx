@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react'
 import { Sidebar } from '@/components/layout/sidebar'
+import dynamic from 'next/dynamic'
 
 interface DashboardLayoutProps {
   children: ReactNode
