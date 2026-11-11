@@ -1,4 +1,4 @@
-import 'server-only'
+// import 'server-only'
 
 const MOCK_USERS = [
   { id: 1, name: 'Артем', email: 'artem@gmail.com' },

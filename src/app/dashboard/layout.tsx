@@ -1,10 +1,5 @@
 import type { ReactNode } from 'react'
 import { Sidebar } from '@/components/layout/sidebar'
-import dynamic from 'next/dynamic'
-
-const HeavyChart = dynamic(() => import('somepath'), {
-  ssr: false
-})
 
 interface DashboardLayoutProps {
   children: ReactNode
